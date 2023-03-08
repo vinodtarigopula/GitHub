@@ -2,6 +2,11 @@ public class Practice {
 
     public static void main(String []args) {
              System.out.println("Hello Vinod");
+
+            printNumbers(5);
+
+        printEvenNumbers(10);
+
         int result = getdifference(2,3);
              System.out.println("difference of 2 and 3 is = " + result );
         int result2 = getSum( 2,3);
@@ -12,8 +17,19 @@ public class Practice {
         System.out.println("division of 6 and 3 is = "+ result4);
 
     }
+    public static void printNumbers(int n) {
+        for (int i = 0; i <= n; i++) {
+            System.out.println(i);
+        }
+    }
+        public static void printEvenNumbers(int n){
+            for (int i=0; i<=n; i++){
+                if( i % 2 == 0)
+                System.out.println(i);
+            }
+    }
     public static int getdifference(int a, int b){
-        int diff;    //int sum =
+        int diff;
         diff = a - b;
         return diff;
     }
