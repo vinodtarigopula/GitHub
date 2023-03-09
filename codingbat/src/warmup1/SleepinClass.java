@@ -12,7 +12,7 @@ public class SleepinClass {
    // We sleep in if it is not a weekday or we're on vacation. Return true if we sleep in.
 
     {
-        public static boolean sleepIn ( boolean weekday, boolean vacation)
+        public static boolean sleepIn(boolean weekday, boolean vacation)
 
     }
 }
